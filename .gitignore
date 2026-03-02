@@ -1,0 +1,17 @@
+*.csv
+*.sqlite
+*.qdrep
+*.pyc
+*.so
+*.o
+*.ncu-rep
+*.svg
+*.png
+.DS_Store
+.idea/
+__pycache__/
+orion.egg-info/
+benchmarking/examples/*
+benchmarking/eval/*
+benchmarking/results/*
+results

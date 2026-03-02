@@ -1,0 +1,57 @@
+Name,Profile,Memory_footprint,SM_usage,Duration,Grid,Block,knee_tpc
+Conv,0,0,1046,558336,3136,128,17
+void at::elementwise_kernel,0,0,8363,605664,100352,128,16
+void at::vectorized_elementwise_kernel,0,0,4182,607328,50176,128,10
+Conv,0,0,4182,2971488,3136,128,17
+void at::elementwise_kernel,0,0,8363,605792,100352,128,15
+void at::vectorized_elementwise_kernel,0,0,4182,608640,50176,128,10
+void at::(anonymous namespace)::max_pool_forward_nchw,1,0,4182,545856,25088,256,19
+Conv,0,0,1046,1107008,784,128,17
+void at::elementwise_kernel,0,0,4182,305056,50176,128,15
+void at::vectorized_elementwise_kernel,0,0,2091,306368,25088,128,10
+Conv,0,0,2091,2117056,784,128,17
+void at::elementwise_kernel,0,0,4182,305056,50176,128,16
+void at::vectorized_elementwise_kernel,0,0,2091,305184,25088,128,10
+void at::(anonymous namespace)::max_pool_forward_nchw,1,0,2091,275808,12544,256,19
+Conv,0,0,523,1053600,392,128,17
+void at::elementwise_kernel,0,0,2091,155232,25088,128,15
+void at::vectorized_elementwise_kernel,0,0,1046,153728,12544,128,10
+Conv,0,0,1046,2041760,392,128,17
+void at::elementwise_kernel,0,0,2091,155200,25088,128,15
+void at::vectorized_elementwise_kernel,0,0,1046,153568,12544,128,10
+Conv,0,0,1046,2040864,392,128,17
+void at::elementwise_kernel,0,0,2091,154944,25088,128,15
+void at::vectorized_elementwise_kernel,0,0,1046,154144,12544,128,10
+Conv,0,0,1046,2040224,392,128,17
+void at::elementwise_kernel,0,0,2091,155104,25088,128,15
+void at::vectorized_elementwise_kernel,0,0,1046,155104,12544,128,10
+void at::(anonymous namespace)::max_pool_forward_nchw,1,0,1046,141408,6272,256,19
+Conv,0,0,683,1161088,196,128,16
+void at::elementwise_kernel,0,0,1046,79744,12544,128,15
+void at::vectorized_elementwise_kernel,0,0,523,78112,6272,128,10
+Conv,0,0,1366,2035136,392,128,17
+void at::elementwise_kernel,0,0,1046,80032,12544,128,15
+void at::vectorized_elementwise_kernel,0,0,523,77984,6272,128,10
+Conv,0,0,1366,2036000,392,128,17
+void at::elementwise_kernel,0,0,1046,79936,12544,128,15
+void at::vectorized_elementwise_kernel,0,0,523,78272,6272,128,10
+Conv,0,0,1366,2034912,392,128,17
+void at::elementwise_kernel,0,0,1046,79776,12544,128,15
+void at::vectorized_elementwise_kernel,0,0,523,77824,6272,128,10
+void at::(anonymous namespace)::max_pool_forward_nchw,1,0,523,73664,3136,256,18
+Conv,0,0,1366,620288,416,128,16
+void at::elementwise_kernel,0,0,262,23296,3136,128,14
+void at::vectorized_elementwise_kernel,0,0,131,19936,1568,128,13
+Conv,0,0,1366,620960,416,128,16
+void at::elementwise_kernel,0,0,262,23360,3136,128,14
+void at::vectorized_elementwise_kernel,0,0,131,20480,1568,128,13
+Conv,0,0,1366,622528,416,128,16
+void at::elementwise_kernel,0,0,262,23680,3136,128,13
+void at::vectorized_elementwise_kernel,0,0,131,20160,1568,128,13
+Conv,0,0,1366,619456,416,128,16
+void at::elementwise_kernel,0,0,262,23328,3136,128,15
+void at::vectorized_elementwise_kernel,0,0,131,20288,1568,128,15
+void at::(anonymous namespace)::max_pool_forward_nchw,0,0,131,22720,784,256,15
+void at::(anonymous namespace)::adaptive_average_pool,0,0,683,84096,4096,256,19
+ampere_sgemm_64x32_sliced1x4_tn,0,0,352,1681152,704,256,18
+void at::vectorized_elementwise_kernel,-1,0,6,4864,64,128,17

@@ -1,0 +1,20 @@
+For nsys pyinstall
+
+sudo /home/zixi/nsight-systems-2024.4.1/bin/nsys profile -w true -t cuda,nvtx,osrt,cudnn,cublas -s cpu -o nsight_report -f true --cudabacktrace=true  --osrt-threshold=10000 -x true alexnet 
+
+
+
+
+
+
+sudo PYTHONPATH=$PYTHONPATH:/home/zixi/workspace/vision ncu --metrics smsp__sass_thread_inst_executed_op_fadd_pred_on.sum.per_cycle_elapsed,smsp__sass_thread_inst_executed_op_fmul_pred_on.sum.per_cycle_elapsed,smsp__sass_thread_inst_executed_op_ffma_pred_on.sum.per_cycle_elapsed,dram__bytes.sum.per_second -o output_ncu --set detailed --nvtx --nvtx-include "start/" python vision_models.py
+sudo PYTHONPATH=$PYTHONPATH:/home/zixi/workspace/vision ncu --metrics smsp__sass_thread_inst_executed_op_fadd_pred_on.sum.per_cycle_elapsed,smsp__sass_thread_inst_executed_op_fmul_pred_on.sum.per_cycle_elapsed,smsp__sass_thread_inst_executed_op_ffma_pred_on.sum.per_cycle_elapsed,dram__bytes.sum.per_second --csv --set detailed --nvtx --nvtx-include "start/" python vision_models.py  > output_ncu.csv
+sudo PYTHONPATH=$PYTHONPATH:/home/zixi/workspace/vision nsys profile -w true -t cuda,nvtx,osrt,cudnn,cublas -s none -o output_nsys --cudabacktrace=true --capture-range=cudaProfilerApi --capture-range-end=stop-shutdown  -f true -x true python vision_models.py 
+nsys stats --report gputrace --format csv --output output_nsys output_nsys.nsys-rep
+
+
+POSTPROCESSING
+python /home/zixi/orion/profiling/postprocessing/process_ncu.py --results_dir ./ --cuda_version 11.8
+python /home/zixi/orion/profiling/postprocessing/get_num_blocks.py --results_dir ./ --max_threads_sm 1536 --max_blocks_sm 16 --max_shmem_sm 49152 --max_regs_sm 65536
+python /home/zixi/orion/profiling/postprocessing/roofline_analysis.py --results_dir . --ai_threshold 0.34
+python /home/zixi/orion/profiling/postprocessing/generate_file.py --input_file_name ./output_ncu_sms_roofline.csv --output_file_name ./mobilenetv2_16_fwd --model_type vision

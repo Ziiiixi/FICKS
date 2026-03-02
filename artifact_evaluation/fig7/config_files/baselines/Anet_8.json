@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "alexnet",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/torun/alexnet_8_fwd_updated",
+        "num_kernels": 96,
+        "num_iters": 40,
+        "args": {
+            "model_name": "alexnet",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

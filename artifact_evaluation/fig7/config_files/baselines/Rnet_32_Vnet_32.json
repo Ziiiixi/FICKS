@@ -1,0 +1,32 @@
+[
+    
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_32_fwd",
+        "num_kernels": 7356,
+        "num_iters": 2000,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 32,
+            "rps": 4000,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vgg19",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/vgg19_32_fwd",
+        "num_kernels": 1064,
+        "num_iters": 2000,
+        "args": {
+            "model_name": "vgg19",
+            "batchsize": 32,
+            "rps": 4000,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+    
+]

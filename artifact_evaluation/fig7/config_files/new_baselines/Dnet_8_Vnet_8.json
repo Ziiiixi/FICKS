@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/densenet201_8_fwd",
+        "num_kernels": 3298,
+        "num_iters": 3400,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 8,
+            "rps": 0,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/densenet201_8_fwd",
+        "num_kernels": 3298,
+        "num_iters": 3400,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 8,
+            "rps": 0,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

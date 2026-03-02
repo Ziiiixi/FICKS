@@ -1,0 +1,3224 @@
+14/05/2025 13:29:04 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:00 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:02 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:04 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:05 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:07 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:09 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:11 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:13 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:15 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:16 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:18 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:31:20 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:32:57 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:37:10 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:37:17 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:41 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:43 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:45 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:47 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:49 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:50 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:52 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:54 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:56 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:57 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:47:59 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:48:01 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:59:12 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 13:59:58 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:00:49 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:00:56 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 10,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 10,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 10,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:05:03 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:05:10 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:05:17 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:05:41 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:07:56 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:08:03 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 10,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:08:33 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:08:45 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:09:05 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:09:18 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:09:30 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:09:43 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:09:56 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:10:08 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:10:21 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:10:34 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:10:47 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:11:00 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:11:12 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}
+14/05/2025 14:11:25 INFO    : [main.py:88] full config:
+{
+    "bert": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    },
+    "mobilenet_v2": {
+        "arch": "mobilenet_v2",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "mobilenet_v2-1": {
+        "arch": "mobilenet_v2",
+        "batch_size": 64,
+        "num_iterations": 20,
+        "request_rate": 100
+    },
+    "models": {
+        "model0": {
+            "mode": "eval",
+            "name": "resnet101"
+        },
+        "model1": {
+            "mode": "eval",
+            "name": "resnet101"
+        }
+    },
+    "policy": "MPS",
+    "resnet101": {
+        "arch": "resnet101",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 40
+    },
+    "resnet50": {
+        "arch": "resnet50",
+        "batch_size": 4,
+        "num_iterations": 20,
+        "request_rate": 15
+    },
+    "resnet50-1": {
+        "arch": "resnet50",
+        "batch_size": 32,
+        "num_iterations": 20,
+        "request_rate": 80
+    },
+    "shared_config": {
+        "distribution": "poisson",
+        "pin_memory": true,
+        "seed": 42,
+        "trace_path": "./inter_arrival_times.json"
+    },
+    "transformer": {
+        "arch": "base",
+        "batch_size": 8,
+        "num_iterations": 20,
+        "request_rate": 0
+    }
+}

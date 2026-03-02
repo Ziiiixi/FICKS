@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/5percent/resnet152_32_fwd_5percent_with_critical_10",
+        "num_kernels": 7356,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 32,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/5percent/mobilenetv2_32_fwd_5percent_with_critical_10",
+        "num_kernels": 1354,
+        "num_iters": 20,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 32,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/5percent/resnet152_8_fwd_5percent_with_critical_10",
+        "num_kernels": 2340,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/5percent/mobilenetv2_16_fwd_5percent_with_critical_10",
+        "num_kernels": 778,
+        "num_iters": 20,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 16,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

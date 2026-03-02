@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/ficks/resnet101_8_fwd",
+        "num_kernels": 343,
+        "num_iters": 110,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 1,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

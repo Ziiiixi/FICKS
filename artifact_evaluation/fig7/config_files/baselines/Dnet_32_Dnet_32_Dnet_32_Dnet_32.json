@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/densenet201_32_fwd",
+        "num_kernels": 10474,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 32,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/densenet201_32_fwd",
+        "num_kernels": 10474,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 32,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/densenet201_32_fwd",
+        "num_kernels": 10474,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 32,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/densenet201_32_fwd",
+        "num_kernels": 10474,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 32,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

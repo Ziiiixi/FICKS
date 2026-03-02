@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_32_fwd",
+        "num_kernels": 7356,
+        "num_iters": 4465,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 32,
+            "rps": 1,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/mobilenetv2_32_fwd",
+        "num_kernels": 1354,
+        "num_iters": 4465,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 32,
+            "rps": 1,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

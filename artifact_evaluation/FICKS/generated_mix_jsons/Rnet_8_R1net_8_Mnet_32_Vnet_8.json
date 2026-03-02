@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/resnet152_8_fwd",
+        "num_kernels": 513,
+        "num_iters": 25,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/resnet101_8_fwd",
+        "num_kernels": 343,
+        "num_iters": 25,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "mobilenetv2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/mobilenetv2_32_fwd",
+        "num_kernels": 0,
+        "num_iters": 25,
+        "args": {
+            "model_name": "mobilenetv2",
+            "batchsize": 32,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vgg19",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/vgg19_8_fwd",
+        "num_kernels": 56,
+        "num_iters": 25,
+        "args": {
+            "model_name": "vgg19",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

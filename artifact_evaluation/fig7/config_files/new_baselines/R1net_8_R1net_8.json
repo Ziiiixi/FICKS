@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/resnet101_8_fwd_KRISP",
+        "num_kernels": 1575,
+        "num_iters": 1000,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/resnet101_8_fwd_KRISP",
+        "num_kernels": 1575,
+        "num_iters": 1000,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

@@ -1,0 +1,106 @@
+{
+  "defaults": {
+    "coloc": {
+      "tau_frac": 2,
+      "win": 4,
+      "coverage_p": 0.8,
+      "alpha": 0.5,
+      "scale_min": 0.5,
+      "scale_max": 2.0
+    },
+    "exclusive": {
+      "tau_frac": 0.008,
+      "win": 4,
+      "alpha": 0.5,
+      "scale_min": 0.5,
+      "scale_max": 2.0
+    }
+  },
+  "models": {
+    "densenet201": {
+      "coloc": {
+        "tau_frac": 2,
+        "win": 4,
+        "coverage_p": 0.8,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      },
+      "exclusive": {
+        "tau_frac": 0.008,
+        "win": 4,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      }
+    },
+    "mobilenet_v2": {
+      "coloc": {
+        "tau_frac": 2,
+        "win": 4,
+        "coverage_p": 0.8,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      },
+      "exclusive": {
+        "tau_frac": 0.008,
+        "win": 4,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      }
+    },
+    "resnet101": {
+      "coloc": {
+        "tau_frac": 2,
+        "win": 4,
+        "coverage_p": 0.8,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      },
+      "exclusive": {
+        "tau_frac": 0.008,
+        "win": 4,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      }
+    },
+    "resnet152": {
+      "coloc": {
+        "tau_frac": 2,
+        "win": 4,
+        "coverage_p": 0.8,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      },
+      "exclusive": {
+        "tau_frac": 0.008,
+        "win": 4,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      }
+    },
+    "vgg19": {
+      "coloc": {
+        "tau_frac": 2,
+        "win": 4,
+        "coverage_p": 0.8,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      },
+      "exclusive": {
+        "tau_frac": 0.008,
+        "win": 4,
+        "alpha": 0.5,
+        "scale_min": 0.5,
+        "scale_max": 2.0
+      }
+    }
+  }
+}

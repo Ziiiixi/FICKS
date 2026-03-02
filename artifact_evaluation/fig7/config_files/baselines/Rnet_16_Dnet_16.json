@@ -1,0 +1,31 @@
+[
+    
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_16_fwd",
+        "num_kernels": 4012,
+        "num_iters": 5000,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 16,
+            "rps": 4000,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/densenet201_16_fwd",
+        "num_kernels": 5690,
+        "num_iters": 5000,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 16,
+            "rps": 4000,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

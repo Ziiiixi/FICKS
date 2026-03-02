@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/krisp/resnet152_8_fwd",
+        "num_kernels": 1575,
+        "num_iters": 11,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 1,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

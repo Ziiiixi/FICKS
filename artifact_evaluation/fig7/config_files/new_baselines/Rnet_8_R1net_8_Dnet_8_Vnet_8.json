@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/resnet152_8_fwd_KRISP",
+        "num_kernels": 2340,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet101",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/resnet101_8_fwd_KRISP",
+        "num_kernels": 1575,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet101",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/densenet201_8_fwd_KRISP",
+        "num_kernels": 3298,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vgg19",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/KRISP/vgg19_8_fwd_KRISP",
+        "num_kernels": 296,
+        "num_iters": 20,
+        "args": {
+            "model_name": "vgg19",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

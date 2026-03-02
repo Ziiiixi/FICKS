@@ -1,0 +1,88 @@
+{
+  "defaults": {
+    "coloc": {
+      "tau_abs": 0.05,
+      "tau_frac": 0.01,
+      "win": 3,
+      "coverage_p": 0.8
+    },
+    "exclusive": {
+      "tau_abs": 0.05,
+      "tau_frac": 0.01,
+      "win": 3,
+      "coverage_p": 0.8
+    }
+  },
+  "models": {
+    "densenet201": {
+      "coloc": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      },
+      "exclusive": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      }
+    },
+    "mobilenet_v2": {
+      "coloc": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      },
+      "exclusive": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      }
+    },
+    "resnet101": {
+      "coloc": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      },
+      "exclusive": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      }
+    },
+    "resnet152": {
+      "coloc": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      },
+      "exclusive": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      }
+    },
+    "vgg19": {
+      "coloc": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      },
+      "exclusive": {
+        "tau_abs": 0.05,
+        "tau_frac": 0.01,
+        "win": 3,
+        "coverage_p": 0.8
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/torun/densenet201_8_fwd_updated",
+        "num_kernels": 3298,
+        "num_iters": 40,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

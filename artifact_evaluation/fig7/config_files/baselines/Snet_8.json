@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "shufflenet_v2_x1_0",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/torun/shufflenet_v2_x1_0_8_fwd_updated",
+        "num_kernels": 556,
+        "num_iters": 40,
+        "args": {
+            "model_name": "shufflenet_v2_x1_0",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

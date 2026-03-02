@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_16_fwd_20p",
+        "num_kernels": 4012,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 16,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_16_fwd_20p",
+        "num_kernels": 4012,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 16,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_16_fwd_20p",
+        "num_kernels": 4012,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 16,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "resnet152",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/new_torun/resnet152_16_fwd_20p",
+        "num_kernels": 4012,
+        "num_iters": 20,
+        "args": {
+            "model_name": "resnet152",
+            "batchsize": 16,
+            "rps": 2,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

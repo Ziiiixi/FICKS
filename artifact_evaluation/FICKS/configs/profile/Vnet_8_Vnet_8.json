@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "vgg19",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/vgg19_8_fwd",
+        "num_kernels": 56,
+        "num_iters": 818,
+        "args": {
+            "model_name": "vgg19",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vgg19",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/cudnn_based/others/vgg19_8_fwd",
+        "num_kernels": 56,
+        "num_iters": 818,
+        "args": {
+            "model_name": "vgg19",
+            "batchsize": 8,
+            "rps": 40,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

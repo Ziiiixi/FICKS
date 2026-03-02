@@ -1,0 +1,16 @@
+[
+    {
+        "arch": "bert",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/bert_8_fwd",
+        "num_kernels": 286,
+        "num_iters": 34,
+        "args": {
+            "model_name": "bert",
+            "batchsize": 8,
+            "rps": 0,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/krisp/mobilenetv2_32_fwd",
+        "num_kernels": 1354,
+        "num_iters": 200,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 32,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/krisp/mobilenetv2_32_fwd",
+        "num_kernels": 1354,
+        "num_iters": 200,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 32,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "arch": "mobilenet_v2",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/ours/mobilenetv2_32_fwd",
+        "num_kernels": 1354,
+        "num_iters": 20,
+        "args": {
+            "model_name": "mobilenet_v2",
+            "batchsize": 32,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "densenet201",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/ours/densenet201_8_fwd",
+        "num_kernels": 3298,
+        "num_iters": 20,
+        "args": {
+            "model_name": "densenet201",
+            "batchsize": 8,
+            "rps": 20,
+            "uniform": false,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

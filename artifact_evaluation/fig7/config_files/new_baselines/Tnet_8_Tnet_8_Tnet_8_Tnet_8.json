@@ -1,0 +1,58 @@
+[
+    {
+        "arch": "vit_b_16",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/vitb16_8_fwd",
+        "num_kernels": 152,
+        "num_iters": 20,
+        "args": {
+            "model_name": "vit_b_16",
+            "batchsize": 8,
+            "rps": 60,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vit_b_16",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/vitb16_8_fwd",
+        "num_kernels": 152,
+        "num_iters": 20,
+        "args": {
+            "model_name": "vit_b_16",
+            "batchsize": 8,
+            "rps": 60,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vit_b_16",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/vitb16_8_fwd",
+        "num_kernels": 152,
+        "num_iters": 20,
+        "args": {
+            "model_name": "vit_b_16",
+            "batchsize": 8,
+            "rps": 60,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    },
+    {
+        "arch": "vit_b_16",
+        "kernel_file": "/home/zixi/orion_bu/benchmarking/model_kernels/small_models/vitb16_8_fwd",
+        "num_kernels": 152,
+        "num_iters": 20,
+        "args": {
+            "model_name": "vit_b_16",
+            "batchsize": 8,
+            "rps": 60,
+            "uniform": true,
+            "dummy_data": true,
+            "train": false
+        }
+    }
+]

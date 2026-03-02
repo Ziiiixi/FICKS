@@ -1,0 +1,153 @@
+Name,Profile,Memory_footprint,SM_usage,Duration,Grid,Block,Knee TPC,is critical
+void at::native::elementwise_kernel,-1,0,392,24960,4704,128,24,1
+void at::native::im2col_kernel,-1,0,1,127904,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78560,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,128768,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78752,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,126368,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78688,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,129664,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78880,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,127872,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78560,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,131232,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78752,96,256,16,1
+void at::native::im2col_kernel,-1,0,1,130688,1,1024,2,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78688,96,256,17,1
+void at::native::im2col_kernel,-1,0,1,129088,1,1024,1,0
+ampere_sgemm_64x32_sliced1x4_nn,1,0,48,78976,96,256,16,1
+void at::native::(anonymous namespace)::CatArrayBatchedCopy,-1,0,64,103872,192,512,24,0
+void at::native::elementwise_kernel,1,0,394,33504,4728,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,43424,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1055552,900,128,24,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,89152,1576,192,10,0
+ampere_sgemm_128x128_tn,1,0,192,183456,384,256,9,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90880,4728,128,24,0
+ampere_sgemm_128x128_nn,1,0,96,240160,192,256,7,1
+void at::native::elementwise_kernel,0,0,394,32896,4728,128,4,0
+ampere_sgemm_128x64_tn,1,0,113,393824,450,128,23,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44352,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,43040,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,300,1424246,1240,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,788,115936,9456,128,11,0
+ampere_sgemm_64x64_tn,1,0,240,1497124,1240,64,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44256,2364,128,10,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42472,1576,128,8,0
+ampere_sgemm_128x64_tn,1,0,245,1054432,900,128,24,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,88192,1576,192,10,0
+ampere_sgemm_128x128_tn,1,0,192,183872,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,91424,4728,128,23,0
+ampere_sgemm_128x128_nn,1,0,96,240096,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32736,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,394656,450,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44416,2364,128,9,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,41952,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,300,1419744,1240,128,11,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116544,9456,128,8,0
+ampere_sgemm_64x64_tn,1,0,240,1498144,1240,64,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44192,2364,128,15,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42400,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1054464,900,128,23,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,88160,1576,192,24,0
+ampere_sgemm_128x128_tn,1,0,192,182848,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90336,4728,128,24,0
+ampere_sgemm_128x128_nn,1,0,96,240288,192,256,15,1
+void at::native::elementwise_kernel,0,0,394,32736,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,394368,450,128,9,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44352,2364,128,9,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42592,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,300,1418880,1240,128,23,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116244,9456,128,24,0
+ampere_sgemm_64x64_tn,1,0,240,1497248,1240,64,23,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44512,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42848,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1055168,900,128,24,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,88992,1576,192,10,0
+ampere_sgemm_128x128_tn,1,0,192,183524,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90724,4728,128,10,0
+ampere_sgemm_128x128_nn,1,0,96,240288,192,256,11,1
+void at::native::elementwise_kernel,0,0,394,32704,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,394080,450,128,23,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44288,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42400,1576,128,23,0
+ampere_sgemm_128x64_tn,1,0,300,1418048,1240,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116256,9456,128,24,0
+ampere_sgemm_64x64_tn,1,0,240,1498112,1240,64,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44352,2364,128,14,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42412,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1054560,900,128,10,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,90144,1576,192,7,0
+ampere_sgemm_128x128_tn,1,0,192,183840,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90144,4728,128,7,0
+ampere_sgemm_128x128_nn,1,0,96,240244,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32544,4728,128,23,0
+ampere_sgemm_128x64_tn,1,0,113,394016,450,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44032,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42464,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,300,1419040,1240,128,11,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116448,9456,128,24,0
+ampere_sgemm_64x64_tn,1,0,240,1496288,1240,64,10,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44244,2364,128,7,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,43904,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1054848,900,128,8,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,90016,1576,192,24,0
+ampere_sgemm_128x128_tn,1,0,192,183392,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90432,4728,128,19,0
+ampere_sgemm_128x128_nn,1,0,96,240096,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32512,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,394816,450,128,12,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44736,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42944,1576,128,16,0
+ampere_sgemm_128x64_tn,1,0,300,1417600,1240,128,7,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116000,9456,128,24,0
+ampere_sgemm_64x64_tn,1,0,240,1497440,1240,64,11,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44352,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42472,1576,128,23,0
+ampere_sgemm_128x64_tn,1,0,245,1053856,900,128,24,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,90176,1576,192,24,0
+ampere_sgemm_128x128_tn,1,0,192,183328,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90272,4728,128,10,0
+ampere_sgemm_128x128_nn,1,0,96,240128,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32960,4728,128,10,0
+ampere_sgemm_128x64_tn,1,0,113,393568,450,128,9,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44288,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,41824,1576,128,23,0
+ampere_sgemm_128x64_tn,1,0,300,1418432,1240,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116608,9456,128,23,0
+ampere_sgemm_64x64_tn,1,0,240,1497280,1240,64,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44288,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,43680,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,245,1054816,900,128,10,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,89568,1576,192,24,0
+ampere_sgemm_128x128_tn,1,0,192,183936,384,256,10,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,90880,4728,128,8,0
+ampere_sgemm_128x128_nn,1,0,96,240448,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32544,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,395008,450,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44480,2364,128,23,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42476,1576,128,24,0
+ampere_sgemm_128x64_tn,1,0,300,1416608,1240,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116324,9456,128,24,0
+ampere_sgemm_64x64_tn,1,0,240,1496864,1240,64,10,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44160,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42400,1576,128,10,0
+ampere_sgemm_128x64_tn,1,0,245,1055240,900,128,9,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,88416,1576,192,24,0
+ampere_sgemm_128x128_tn,1,0,192,183136,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,89984,4728,128,24,0
+ampere_sgemm_128x128_nn,1,0,96,240244,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,33152,4728,128,24,0
+ampere_sgemm_128x64_tn,1,0,113,394496,450,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44416,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,43104,1576,128,10,0
+ampere_sgemm_128x64_tn,1,0,300,1416324,1240,128,24,1
+void at::native::vectorized_elementwise_kernel,1,0,788,116544,9456,128,10,0
+ampere_sgemm_64x64_tn,1,0,240,1497056,1240,64,8,1
+void at::native::vectorized_elementwise_kernel,1,0,197,44448,2364,128,24,0
+void at::native::(anonymous namespace)::vectorized_layer_norm_kernel,1,0,158,42528,1576,128,12,0
+ampere_sgemm_128x64_tn,1,0,245,1055008,900,128,24,1
+void at::native::(anonymous namespace)::transform_bias_rescale_qkv_kernel,1,0,263,88384,1576,192,23,0
+ampere_sgemm_128x128_tn,1,0,192,184480,384,256,24,1
+void (anonymous namespace)::softmax_warp_forward,1,0,394,89952,4728,128,24,0
+ampere_sgemm_128x128_nn,1,0,96,240064,192,256,24,1
+void at::native::elementwise_kernel,0,0,394,32896,4728,128,13,0
